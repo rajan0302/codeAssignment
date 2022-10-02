@@ -1,0 +1,22 @@
+.row-cell {
+    width: 60px;
+    border: 1px solid #cccccc;
+    height: 20px;
+}
+
+.row-cell.cell-header, .row-cell.row-header {
+    text-align: center;
+    background: #f1f1f1;
+}
+
+.context-menu { 
+  position: absolute; 
+} 
+.menu {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgb(64 64 64 / 5%);
+  padding: 10px 0;
+}
